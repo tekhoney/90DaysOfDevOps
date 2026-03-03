@@ -14,7 +14,7 @@ I want to reach at the point where i can confidently face the problems which com
 
 How you will stay consistent every single day?
 
-I TWS has given us the challenge of 90DaysofDevops, i think this will help me to being consistent. 
+TWS has given us the challenge of 90DaysofDevops, i think this will help me to being consistent. 
 
 #I am a working professional with 6 years of Experience in IT.
 #My 3 clear goals for the next 90 days are 
