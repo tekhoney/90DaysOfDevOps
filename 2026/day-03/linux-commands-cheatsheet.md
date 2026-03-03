@@ -33,7 +33,7 @@ mv: to move or rename the file or directory name.
 
 cp: to copy the file or directory 
 
-head - 10 : it will show the first 10 lines of the file 
+head -10 : it will show the first 10 lines of the file 
 
 tail -10 : it will show the last 10 lines of the file. 
 
