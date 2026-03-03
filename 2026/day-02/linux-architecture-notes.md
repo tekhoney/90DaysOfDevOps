@@ -25,6 +25,7 @@ Systemd is a default service manager in linux, when we boot the system BIOS load
 that is why we call it the first process in the system. 
 
 Process:- when we perform any task we have to start and end the task to complete it, so the steps we have followed to complete the task are called process. these processes can be multiple types 
+
 New → Ready → Running → Waiting → Running → Terminated
 
 Explain process states (running, sleeping, zombie, etc.)
@@ -39,11 +40,17 @@ Zombie processes:
 zombie process is child a process who's parent process has been executed or killed. 
 
 List 5 commands you would use daily
+
 cd - change directory
+
 Pwd - present working directory 
+
 grep - to find something 
+
 chmod - to set the permissions 
+
 ls -lrth - to list in the human readable form
+
 ps - to check process 
 top - to check the resource consumption by any process. 
 
