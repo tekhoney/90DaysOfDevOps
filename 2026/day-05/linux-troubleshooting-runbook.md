@@ -80,7 +80,9 @@ ping , this command will ensure the connectivity between two host.
 netstat -tulpn  (t=tcp, u=udp,l=listening port, p=programming, n=numeric ports)
 
 root@ip-172-31-1-38:~# netstat -tulpn
+
 Active Internet connections (only servers)
+
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
 tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      13810/nginx: master 
 tcp        0      0 127.0.0.54:53           0.0.0.0:*               LISTEN      4864/systemd-resolv 
