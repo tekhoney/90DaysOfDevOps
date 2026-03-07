@@ -20,7 +20,9 @@ Capture a small troubleshooting flow
 For troubleshooting.
 
 we can check process by ps command
+
 we can check service status of the service.
+
 we can check logs journactl command or we can use tail command (tail -100 <file name>)
 
 
