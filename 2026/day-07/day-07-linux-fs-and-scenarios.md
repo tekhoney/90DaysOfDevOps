@@ -72,4 +72,19 @@ A developer asks: "Where are the logs for the 'docker' service?"
 The service is managed by systemd.
 What commands would you use?
 
+journalctl -u docker -n 50 this will show 50 lines of the logs file 
 
+journalctl -u docker -f this will show you the real time logs. 
+
+
+# Scenario 4: File Permissions Issue
+
+A script at /home/user/backup.sh is not executing.
+When you run it: ./backup.sh
+You get: "Permission denied"
+
+What commands would you use to fix this?
+
+ls -lrth ./backup.sh this will show the permission details to User, Group, Others, if it does not have the execute permission it can not executed
+
+chmod u+x or g+x or o+x backup.sh 
