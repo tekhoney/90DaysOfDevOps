@@ -81,9 +81,16 @@ chmod 400 ubuntu_practice.pen
 
 ssh -i ubuntu_practice.pem ubuntu@16.16.90.51
 
+sudo apt install nginx
+
+sudo journalctl -u nginx > nginx-logs.txt
+
 Challenges Faced
-[Describe any issues and how you solved them]
+i faced issue with SCP command but i fixed it with R&D
 
 What I Learned
-[3-5 bullet points of key learnings]
+
+#### I learnt launch an instance 
+#### enabling the rules in ec2 (port 80)
+#### usage of scp command.
 
