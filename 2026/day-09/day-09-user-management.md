@@ -1,31 +1,48 @@
 # Day 09 – Linux User & Group Management Challenge
 
-root@ip-172-31-1-38:~# useradd  tokyo
+## Users & Groups Created
+- Users: tokyo, berlin, professor, nairobi
+- Groups: developers, admins, project-team
 
-root@ip-172-31-1-38:~# passwd
+## Group Assignments
+tokyo is part of developer group
 
-New password: 
+berlin is in developers and admins
 
-Retype new password: 
+professors is in admin
 
-passwd: password updated successfully
+## Directories Created
+mkdir /opt/dev-project
 
-root@ip-172-31-1-38:~# useradd  berlin
 
-root@ip-172-31-1-38:~# passwd
+## Commands Used
+useradd -m tokyo, berlin, professor, nairobi
 
-New password: 
+usermod -aG tokyo  developers
 
-Retype new password: 
+usermod -aG berlin developers
 
-passwd: password updated successfully
+usermod -aG berlin admins
 
-root@ip-172-31-1-38:~# useradd professor
+usermod -aG professor admins
 
-root@ip-172-31-1-38:~# passwd
+mkdir /opt/dev-project
 
-New password: 
+chgrp developers dev-project
 
-Retype new password: 
+chmod 775 dev-project
 
-passwd: password updated successfully
+usermod -aG nairobi project-team
+
+usermod -aG tokyo project-team
+
+mkdir /opt/team-workspace
+
+chgrp project-team team-workspace
+
+chmod 775 team-workspace
+
+
+
+## What I Learned
+i learnt how to manage Linux User & Group 
