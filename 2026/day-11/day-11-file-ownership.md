@@ -163,9 +163,6 @@ blueprints.pdf → owner: berlin, group: tech-team
 
 escape-plan.txt → owner: nairobi, group: vault-team
 
-### Verify: ls -l bank-heist/
-
-
 ubuntu@ip-172-31-1-38:~$ sudo chown tokyo:vault-team bank-heist/access-codes.txt 
 
 ubuntu@ip-172-31-1-38:~$ cd bank-heist/
@@ -185,6 +182,8 @@ ubuntu@ip-172-31-1-38:~/bank-heist$ sudo useradd nairobi
 ubuntu@ip-172-31-1-38:~/bank-heist$ sudo chown nairobi:vault-team escape-plan.txt 
 
 ubuntu@ip-172-31-1-38:~/bank-heist$ cd .. 
+
+### Verify: ls -l bank-heist/
 
 ubuntu@ip-172-31-1-38:~$ ls -l bank-heist/
 
