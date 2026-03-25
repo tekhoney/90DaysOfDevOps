@@ -92,12 +92,27 @@ kind version 0.31.0
 ###    image: kindest/node:v1.35.0
    
 opstree@opstree-Latitude-3420:~/devops/kubernetes-practise$ kubectl cluster-info 
+
 Kubernetes control plane is running at https://127.0.0.1:42287
+
 CoreDNS is running at https://127.0.0.1:42287/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
 
 To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+
 opstree@opstree-Latitude-3420:~/devops/kubernetes-practise$ docker ps 
-CONTAINER ID   IMAGE                  COMMAND                  CREATED      STATUS       PORTS                       NAMES
-8266a7c6dd61   kindest/node:v1.35.0   "/usr/local/bin/entr…"   7 days ago   Up 6 hours   127.0.0.1:42287->6443/tcp   krishan-cluster-control-plane
-237785af2a61   kindest/node:v1.35.0   "/usr/local/bin/entr…"   7 days ago   Up 6 hours                               krishan-cluster-worker2
-29c37d13d75a   kindest/node:v1.35.0   "/usr/local/bin/entr…"   7 days ago   Up 6 hours                               krishan-cluster-worker
+
+CONTAINER ID   IMAGE                  COMMAND                  CREATED      STATUS       PORTS                       
+
+NAMES
+
+8266a7c6dd61   kindest/node:v1.35.0   "/usr/local/bin/entr…"   7 days ago   Up 6 hours   127.0.0.1:42287->6443/tcp   
+
+krishan-cluster-control-plane
+
+237785af2a61   kindest/node:v1.35.0   "/usr/local/bin/entr…"   7 days ago   Up 6 hours                               
+
+krishan-cluster-worker2
+
+29c37d13d75a   kindest/node:v1.35.0   "/usr/local/bin/entr…"   7 days ago   Up 6 hours                               
+
+krishan-cluster-worker
