@@ -1,4 +1,6 @@
-# Task 1: Create Your First Pod (Nginx)
+# Day 51 – Kubernetes Manifests and Your First Pods
+
+## Task 1: Create Your First Pod (Nginx)
  
  vim nginx.yml
  
